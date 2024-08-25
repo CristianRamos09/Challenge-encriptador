@@ -220,6 +220,12 @@ main{
     font-family: var(--fuente-inter);
 }
 
+.contacto{
+    font-size: 20px;
+    color: var(--color-principal);
+    margin-left: 10px;
+}
+
 @media(max-width: 1200px){
     main{
         display: flex;

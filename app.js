@@ -17,7 +17,7 @@ btnEncriptar.addEventListener("click", e=>{
         aviso.style.background = "#0A3871";
         aviso.style.color = "#FFFF";
         aviso.style.fontWeight = "800";
-        aviso.textContent = "El campo de texto no debe estar vacio";
+        aviso.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> El campo de texto no puede estar vacio';
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
@@ -28,7 +28,7 @@ btnEncriptar.addEventListener("click", e=>{
         aviso.style.background = "#0A3871";
         aviso.style.color = "#FFFF";
         aviso.style.fontWeight = "800";
-        aviso.textContent = "No debe tener acentos y caracteres especiales";
+        aviso.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> No se permiten acentos ni caracteres especiales';
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
@@ -39,7 +39,7 @@ btnEncriptar.addEventListener("click", e=>{
         aviso.style.background = "#0A3871";
         aviso.style.color = "#FFFF";
         aviso.style.fontWeight = "800";
-        aviso.textContent = "El texto debe ser todo en minúscula";
+        aviso.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> El texto debe ser todo en minúscula';
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
@@ -69,7 +69,7 @@ btnDesencriptar.addEventListener("click", e=>{
         aviso.style.background = "#0A3871";
         aviso.style.color = "#FFFF";
         aviso.style.fontWeight = "800";
-        aviso.textContent = "El campo de texto no debe estar vacio";
+        aviso.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> El campo de texto no debe estar vacio';
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
@@ -80,7 +80,7 @@ btnDesencriptar.addEventListener("click", e=>{
         aviso.style.background = "#0A3871";
         aviso.style.color = "#FFFF";
         aviso.style.fontWeight = "800";
-        aviso.textContent = "No debe tener acentos y caracteres especiales";
+        aviso.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> No debe tener acentos y caracteres especiales';
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
@@ -91,7 +91,7 @@ btnDesencriptar.addEventListener("click", e=>{
         aviso.style.background = "#0A3871";
         aviso.style.color = "#FFFF";
         aviso.style.fontWeight = "800";
-        aviso.textContent = "El texto debe ser todo en minúscula";
+        aviso.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> El texto debe ser todo en minúscula';
         
         setTimeout(()=>{
             aviso.removeAttribute("style");
